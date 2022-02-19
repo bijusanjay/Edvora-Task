@@ -1,0 +1,35 @@
+.filter {
+    position: absolute;
+    right: 0;
+    color: white !important;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.filter-box {
+    background: black !important;
+    height: 175px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+.filter-popover {
+    border-radius: 10px;
+    background: black ;
+}
+
+.dropdown-filter {
+    margin-top: 5px;
+}
+
+.card-body .dropdown {
+    margin-bottom: 4px;
+    display: grid;
+    padding-top: 15px;
+}
+
+.dropdown-btn {
+    background-color: gray !important;
+    border-color: gray !important;
+}

@@ -1,0 +1,21 @@
+.navbar-component { 
+    background: #101010;
+}
+.profilePic {
+    margin-left: 10px;
+}
+.title {
+    font: "SF Pro Display";
+    font-weight: 500;
+    font-size: 2rem !important;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.user-name {
+    font:"inter";
+    font-weight:500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #FFFFFF !important;
+}

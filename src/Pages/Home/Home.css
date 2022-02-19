@@ -1,0 +1,16 @@
+.body-row {
+    background-color: rgb(53, 53, 53);
+}
+.line {
+    border: none;
+}
+.tab{
+    border: none !important;
+    margin-top: 10px;
+}
+.cont {
+    position: relative;
+}
+div {
+    display: block;
+}

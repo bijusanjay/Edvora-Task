@@ -1,0 +1,29 @@
+.img {
+    width: 100%
+}
+.img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.text3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text3 p {
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: #fff !important;
+    border: none !important;
+    background: none !important;
+}
+
+.nav-item .active{
+    border-bottom: 1px solid #fff!important;
+}
+.box{
+    position: absolute;
+}
