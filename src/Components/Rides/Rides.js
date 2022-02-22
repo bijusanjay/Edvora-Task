@@ -7,20 +7,10 @@ const Rides = (props) => {
 
   return (
     <div className="page">
-      <Row>
         {ride.map((obj, index) => {
           return (
-            <Col>
-              <Card
-                className="box"
-                style={{
-                  width: "1280px",
-                  background: "#171717",
-									marginTop:"10px",
-                  borderRadius: "10px",
-                  color: "white",
-                }}
-              >
+            <Row>
+              <Card className="box">
                 <Card.Body>
                   <Card.Title className="proj-title"></Card.Title>
                   <Card.Subtitle className="mb-2 language"></Card.Subtitle>
@@ -59,10 +49,9 @@ const Rides = (props) => {
                   </Card.Text>
                 </Card.Body>
               </Card>
-            </Col>
+            </Row>
           );
         })}
-      </Row>
     </div>
   );
 };

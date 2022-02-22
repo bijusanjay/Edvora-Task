@@ -26,4 +26,8 @@
 }
 .box{
     position: absolute;
+    background: #171717 !important;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
 }
